@@ -7,11 +7,11 @@ function ToggleButton({ children }) {
 
 
     return (
-        <button 
+        <div 
             onClick={ toggle }
         >
             { children }
-        </button>
+        </div>
     );
 }
 
