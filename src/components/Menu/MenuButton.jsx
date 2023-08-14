@@ -1,13 +1,15 @@
 import Button from '../Button/Button' ;
-
+import Toggle from '../Toggle/index' ;
 
 function MenuButton({ children }) {
 
 
     return (
-        <Button>
-            { children }
-        </Button>
+        <Toggle.Button>
+            <Button>
+                { children }
+            </Button>
+        </Toggle.Button>
     );
 }
 
