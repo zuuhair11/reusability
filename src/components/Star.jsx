@@ -2,11 +2,11 @@ import { BsStar, BsStarFill } from 'react-icons/bs' ;
 import Toggle from './Toggle/index' ;
 
 
-function Star() {
+function Star({ onChange }) {
 
 
     return (
-        <Toggle>
+        <Toggle onToggle={ onChange }>
             <Toggle.Button>
                 <Toggle.On>
                     <BsStarFill className='star filled' />
