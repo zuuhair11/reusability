@@ -7,7 +7,7 @@ function App() {
     return (
         <>
             <Menu onOpen={ () => console.log('Opend / Closed') }>
-            <Menu.Button>Menu</Menu.Button>
+                <Menu.Button>Menu</Menu.Button>
 
                 <Menu.Dropdown>
                     <Menu.Item>Home</Menu.Item>
@@ -15,7 +15,7 @@ function App() {
                     <Menu.Item>Contact</Menu.Item>
                     <Menu.Item>Blog</Menu.Item>
                 </Menu.Dropdown>
-         </Menu>
+            </Menu>
         </>
     );
 }
