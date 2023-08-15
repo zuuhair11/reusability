@@ -1,6 +1,15 @@
+import Button from './components/Button/Button' ; 
+import Badge from './components/Button/Badge' ;
+
+
 function App() {
     return (
-        <h1>App</h1>
+        <Button isSquare={ true }>
+            <Badge 
+                text='Badge' 
+                color='blue' 
+            />
+        </Button>
     );
 }
 
